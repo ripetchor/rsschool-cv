@@ -36,3 +36,10 @@ const sumTwoNumbers = (a, b) => {
 ## Work experience:
 
 No commercial experience in it
+
+## Education:
+
+- school
+- college
+- freecodecamp
+- self-taught
