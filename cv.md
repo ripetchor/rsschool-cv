@@ -43,3 +43,9 @@ No commercial experience in it
 - college
 - freecodecamp
 - self-taught
+
+## Languages:
+
+- uzbek (native)
+- russian (upper-Intermediate)
+- english (beginner)
