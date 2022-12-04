@@ -21,3 +21,14 @@ eveniet? Vitae, tempore!
 - CSS (beginner)
 - JS (beginner)
 - GIT (beginner)
+
+## Code example:
+
+```javascript
+const sumTwoNumbers = (a, b) => {
+  if (typeof a !== 'number' || typeof b !== 'number') {
+    throw new Error(`${a} and ${b} must be numbers`);
+  }
+  return a + b;
+};
+```
