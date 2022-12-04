@@ -7,3 +7,10 @@
 - Telegram: @telegram
 - Twitter: @twitter
 - Facebook: @facebook
+
+## About me:
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia iure, quaerat veritatis, sapiente nobis praesentium
+commodi dicta saepe minus, officiis dolore labore! Adipisci aliquam quam quisquam labore iure aspernatur esse, ea,
+corrupti at dolore id sit eligendi consequuntur deserunt. Autem nostrum consequatur optio laudantium dicta commodi nam
+eveniet? Vitae, tempore!
