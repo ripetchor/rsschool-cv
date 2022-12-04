@@ -32,3 +32,7 @@ const sumTwoNumbers = (a, b) => {
   return a + b;
 };
 ```
+
+## Work experience:
+
+No commercial experience in it
