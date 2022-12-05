@@ -58,6 +58,10 @@ body {
 .header {
   background-color: var(--color-secondary);
   animation: fadeInTop 0.7s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .menu {
@@ -86,7 +90,7 @@ body {
 }
 
 #hero {
-  margin-top: 5rem;
+  margin-top: 11rem;
   height: 50vh;
 }
 
