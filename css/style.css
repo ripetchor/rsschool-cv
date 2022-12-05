@@ -18,7 +18,31 @@ html {
 }
 
 body {
+  font-size: 1.6rem;
   font-family: sans-serif;
   color: var(--color-secondary);
   background-color: var(--color-primary);
+}
+
+.container {
+  max-width: 120rem;
+  margin-block: auto;
+}
+
+.margin-bottom-6 {
+  margin-bottom: 6rem;
+}
+
+.heading-1,
+.heading-2 {
+  text-align: center;
+  background-color: var(--color-primary);
+}
+
+.heading-1 {
+  font-size: 6rem;
+}
+
+.heading-2 {
+  font-size: 4rem;
 }
