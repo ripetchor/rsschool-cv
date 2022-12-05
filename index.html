@@ -83,6 +83,33 @@
         </article>
       </div>
     </section>
+    <section id="code-example">
+      <div class="container">
+        <h2 class="heading-2">Code example</h2>
+        <div class="code">
+          <pre class="padding-3">
+<code>
+  const duplicateEncode = (word) => {
+    const duplicates = {};
+    let output = '';
+  
+    for (const letter of word.toLowerCase()) {
+      if (!duplicates[letter]) duplicates[letter] = 1;
+      else duplicates[letter]++;
+    }
+  
+    for (const letter of word.toLowerCase()) {
+      if (duplicates[letter] === 1) output += '(';
+      else output += ')';
+    }
+  
+    return output;
+  };
+</code>
+        </pre>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 </html>
