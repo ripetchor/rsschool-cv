@@ -38,7 +38,6 @@ body {
 .heading-1,
 .heading-2 {
   text-align: center;
-  background-color: var(--color-primary);
 }
 
 .heading-1 {
@@ -47,6 +46,8 @@ body {
 
 .heading-2 {
   font-size: 4rem;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .header {
@@ -68,7 +69,8 @@ body {
   display: block;
   padding-block: 2rem;
   text-decoration: none;
-  color: var(--color-white);
+  color: var(--color-primary);
+  font-weight: bold;
   transition: all 0.2s;
 }
 
