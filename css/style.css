@@ -26,7 +26,7 @@ body {
 
 .container {
   max-width: 120rem;
-  margin-block: auto;
+  margin-inline: auto;
 }
 
 .margin-bottom-6 {
@@ -45,4 +45,32 @@ body {
 
 .heading-2 {
   font-size: 4rem;
+}
+
+.header {
+  background-color: var(--color-secondary);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu__item {
+  flex: 1;
+  text-align: center;
+}
+
+.menu__link {
+  display: block;
+  padding-block: 2rem;
+  text-decoration: none;
+  color: var(--color-white);
+  transition: all 0.2s;
+}
+
+.menu__link:hover {
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
