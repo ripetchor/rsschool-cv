@@ -249,14 +249,15 @@ body {
   text-align: center;
   color: var(--color-white);
   text-transform: uppercase;
-  background-color: var(--color-primary);
+
+  background-color: var(--color-secondary);
   font-weight: bold;
   transition: all 0.2s;
 }
 
 .project__link:hover {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
 
 .project_title {
