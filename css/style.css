@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
 :root {
   --color-primary: #bb2649;
   --color-secondary: #1c1c1c;
@@ -73,4 +75,29 @@ body {
 .menu__link:hover {
   color: var(--color-secondary);
   background-color: var(--color-primary);
+}
+
+#hero {
+  margin-top: 5rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-block: 5rem;
+}
+
+.hero__name {
+  flex: 0 1 30%;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.hero__avatar {
+  display: block;
+  width: 100%;
+  max-width: 30%;
 }
