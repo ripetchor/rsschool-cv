@@ -24,7 +24,6 @@ body {
   font-family: sans-serif;
   color: var(--color-secondary);
   background-color: var(--color-primary);
-  height: 2000px;
 }
 
 .container {
@@ -154,4 +153,41 @@ body {
 .languages {
   flex: 1 1 50%;
   background-color: var(--color-white);
+}
+
+.projects-container {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+  background-color: var(--color-white);
+}
+
+.project {
+  flex: 0 1 30%;
+}
+
+.project__link {
+  display: block;
+  text-align: center;
+  color: var(--color-white);
+  text-transform: uppercase;
+  background-color: var(--color-primary);
+  font-weight: bold;
+  transition: all 0.2s;
+}
+
+.project__link:hover {
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+}
+
+.project_title {
+  display: block;
+  padding-block: 2rem;
+}
+
+.project__image {
+  width: 100%;
+
+  display: block;
 }
