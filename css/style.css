@@ -140,3 +140,18 @@ body {
 .code {
   background-color: var(--color-white);
 }
+
+.education-and-languages {
+  display: flex;
+  gap: 5rem;
+}
+
+.education {
+  flex: 1 1 50%;
+  background-color: var(--color-white);
+}
+
+.languages {
+  flex: 1 1 50%;
+  background-color: var(--color-white);
+}
