@@ -24,6 +24,7 @@ body {
   font-family: sans-serif;
   color: var(--color-secondary);
   background-color: var(--color-primary);
+  height: 2000px;
 }
 
 .container {
@@ -110,4 +111,28 @@ body {
 
 .about {
   background-color: var(--color-white);
+}
+
+.skills-and-contacts {
+  display: flex;
+  gap: 5rem;
+}
+
+.contacts {
+  flex: 1 1 50%;
+  background-color: var(--color-white);
+}
+
+.skills {
+  flex: 1 1 50%;
+  background-color: var(--color-white);
+}
+
+.list {
+  margin-left: 2rem;
+}
+
+.list__item::marker {
+  color: var(--color-primary);
+  font-size: 3rem;
 }
