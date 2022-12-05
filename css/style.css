@@ -50,6 +50,10 @@ body {
   color: var(--color-primary);
 }
 
+.padding-3 {
+  padding: 3rem;
+}
+
 .header {
   background-color: var(--color-secondary);
 }
@@ -106,8 +110,4 @@ body {
 
 .about {
   background-color: var(--color-white);
-}
-
-.about p {
-  padding: 3rem;
 }
