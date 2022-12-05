@@ -71,6 +71,12 @@ body {
   list-style: none;
 }
 
+@media (min-width: 601px) {
+  .menu {
+    transform: translateX(0) !important;
+  }
+}
+
 .menu__item {
   flex: 1;
   text-align: center;
@@ -368,9 +374,10 @@ footer {
   }
 
   .menu {
-    display: none;
+    transform: translateX(-120%);
     flex-direction: column;
     background-color: var(--color-secondary);
+    transition: all 0.2s;
   }
 
   .burger-toggle {

@@ -12,10 +12,10 @@ window.onload = () => {
   });
 
   openBurger.addEventListener('click', () => {
-    menu.style.display = 'block';
+    menu.style.transform = 'translateX(0)';
   });
 
   closeBurger.addEventListener('click', () => {
-    menu.style.display = 'none';
+    menu.style.transform = 'translateX(-120%)';
   });
 };
