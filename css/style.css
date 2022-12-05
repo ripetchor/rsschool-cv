@@ -57,6 +57,7 @@ body {
 
 .header {
   background-color: var(--color-secondary);
+  animation: fadeInTop 0.7s;
 }
 
 .menu {
@@ -101,12 +102,18 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 2rem;
+  animation: fadeInLeft 0.7s;
 }
 
 .hero__avatar {
   display: block;
   width: 100%;
   max-width: 30%;
+  animation: fadeInRight 0.7s;
+}
+
+#about {
+  animation: fadeInBottom 0.7s;
 }
 
 .about {
@@ -210,4 +217,52 @@ footer {
 
 .rs-school-link {
   width: 10%;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
