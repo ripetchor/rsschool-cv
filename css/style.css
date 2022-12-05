@@ -347,3 +347,47 @@ footer {
     flex: 0 1 60%;
   }
 }
+
+.burger-toggle {
+  display: none;
+}
+
+.burger-toggle:hover {
+  cursor: pointer;
+}
+
+.open-burger,
+.close-burger {
+  fill: var(--color-white);
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 5rem;
+    position: relative;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    background-color: var(--color-secondary);
+  }
+
+  .burger-toggle {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .open-burger,
+  .close-burger {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.hidden {
+  display: none;
+}
