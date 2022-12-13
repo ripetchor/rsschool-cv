@@ -152,6 +152,10 @@ body {
   font-size: 3rem;
 }
 
+.list .list__item a {
+  color: var(--color-primary);
+}
+
 .code {
   background-color: var(--color-white);
 }
