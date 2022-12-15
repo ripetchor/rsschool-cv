@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rsschool-cv-html</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/burger-menu.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">About me</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills-and-contacts">Contacts</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills-and-contacts">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#code-example">Code example</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#education-and-languages">Education</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#education-and-languages">Languages</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#projects">Projects</a>
+          </li>
+        </ul>
+        <div class="burger-toggle">
+          <svg class="open-burger" xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+            <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
+          </svg>
+          <svg class="close-burger hidden" xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+            <path
+              d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" />
+          </svg>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div id="hero" class="margin-bottom-6">
+      <div class="container hero">
+        <h1 class="hero__name heading-1">Jakhongir Sirojiddinov</h1>
+        <img class="hero__avatar" src="./images/avatar.png" alt="Avatar image">
+      </div>
+    </div>
+    <div id="about" class="margin-bottom-6">
+      <div class="container about">
+        <h2 class="heading-2">About me</h2>
+        <p class="padding-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptate debitis quod et
+          distinctio tenetur
+          inventore voluptatem. Voluptates saepe soluta cumque ex enim est quidem dolorum vel necessitatibus! Nesciunt
+          minus eligendi aliquam accusamus repudiandae animi totam amet obcaecati earum cupiditate suscipit, in autem,
+          voluptate omnis quaerat quasi eius, veritatis pariatur repellendus debitis aut dolorem reiciendis ullam
+          tempore. Ducimus labore alias placeat cupiditate neque consequuntur ullam, id perspiciatis molestias ipsum
+          dolor expedita velit voluptate officiis quibusdam ab tenetur natus fugiat reiciendis! Nemo repellendus libero
+          sint esse quasi quaerat. Quidem aliquid aspernatur, maiores dolore eum modi fugiat aut! Illo similique nostrum
+          exercitationem laboriosam molestiae adipisci, obcaecati, tempore ipsum numquam ad nulla harum a fugiat
+          dolorum, eos sint in! Labore explicabo veritatis quam excepturi voluptas sed, in hic, eius cumque iste nobis
+          fuga!</p>
+      </div>
+    </div>
+    <div id="skills-and-contacts" class="margin-bottom-6">
+      <div class="container skills-and-contacts">
+        <article class="contacts">
+          <h2 class="heading-2">Contacts</h2>
+          <ul class="list padding-3">
+            <li class="list__item">
+              Discord: <a href="discordapp.com/users/1030173303274471524">Zubenko Mikhail (@ripetchor)</a></li>
+            <li class="list__item">Phone number: +111-11-111-11-11</li>
+            <li class="list__item">Telegram: @telegram</li>
+            <li class="list__item">Twitter: @twitter</li>
+            <li class="list__item">Facebook: @facebook</li>
+          </ul>
+        </article>
+        <article class="skills">
+          <h2 class="heading-2">Skills</h2>
+          <ul class="list padding-3">
+            <li class="list__item">HTML (beginner)</li>
+            <li class="list__item">CSS (beginner)</li>
+            <li class="list__item">JavaScript (beginner)</li>
+            <li class="list__item">Git (beginner)</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+    <div id="code-example" class="margin-bottom-6">
+      <div class="container">
+        <h2 class="heading-2">Code example</h2>
+        <div class="code">
+          <pre class="padding-3">
+<code>
+  const sumTwoNumbers = (a, b) => {
+    if (typeof a !== 'number' || typeof b !== 'number') {
+      throw new Error(`${a} and ${b} must be numbers`);
+    }
+    return a + b;
+  };  
+</code>
+        </pre>
+        </div>
+      </div>
+    </div>
+    <div id="education-and-languages" class="margin-bottom-6">
+      <div class="container education-and-languages">
+        <article class="education">
+          <h2 class="heading-2">Education</h2>
+          <ul class="list padding-3">
+            <li class="list__item">School</li>
+            <li class="list__item">College</li>
+            <li class="list__item">FreeCodeCamp</li>
+            <li class="list__item">Self-taught</li>
+          </ul>
+        </article>
+        <article class="languages">
+          <h2 class="heading-2">Languages</h2>
+          <ul class="list padding-3">
+            <li class="list__item">Uzbek (native)</li>
+            <li class="list__item">Russian (upper-Intermediate)</li>
+            <li class="list__item">English (beginner)</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+    <div id="projects" class="margin-bottom-6">
+      <div class="container">
+        <h2 class="heading-2">Projects</h2>
+        <div class="projects-container padding-3">
+          <div class="project">
+            <a href="https://ripetchor.github.io/rsschool-cv/" target="_blank" class="project__link">
+              <img src="./images/cv-project.png" alt="RS-School cv project" class="project__image">
+              <span class="project_title">RS-School CV</span>
+            </a>
+          </div>
+          <div class="project">
+            <a href="https://ripetchor.github.io/html-css-js-practice/memory-game/" target="_blank"
+              class="project__link">
+              <img src="./images/memory-game.png" alt="Memory game" class="project__image">
+              <span class="project_title">Memory game</span>
+            </a>
+          </div>
+          <div class="project">
+            <a href="#" target="_blank" class="project__link">
+              <img src="./images/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.jpg" alt="project example"
+                class="project__image">
+              <span class="project_title">Title example</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer">
+      <a href="https://github.com/ripetchor" target="_blank" class="github-link">My GitHub</a>
+      <span class="year">2022</span>
+      <a href="https://rs.school/js/" target="_blank" class="rs-school-link">
+        <img src="./images/rs_school_js.svg" alt="rs-school logo">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
