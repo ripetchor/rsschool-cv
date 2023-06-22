@@ -42,3 +42,10 @@ const doCoolThings = () => {
   doAnotherOneCoolThing();
 };
 ```
+
+### Education
+
+- Place of study 1
+- Place of study 2
+- Place of study 3
+- Place of study 4
