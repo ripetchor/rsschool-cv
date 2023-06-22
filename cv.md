@@ -49,3 +49,9 @@ const doCoolThings = () => {
 - Place of study 2
 - Place of study 3
 - Place of study 4
+
+### Languages
+
+- Russian
+- English
+- Uzbek
