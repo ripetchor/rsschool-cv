@@ -13,3 +13,10 @@ Advanced extended doubtful he he blessing together. Introduced far law gay consi
 - WhatsApp: @whatsapp
 - Facebook: @facebook
 - Twitter: @twitter
+
+### Skills
+
+- HTML
+- CSS
+- JavaScript
+- Git
