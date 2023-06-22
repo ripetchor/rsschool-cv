@@ -20,3 +20,25 @@ Advanced extended doubtful he he blessing together. Introduced far law gay consi
 - CSS
 - JavaScript
 - Git
+
+### Code example
+
+```javascript
+const doCoolThing = () => {
+  return 'Cool thing is happening';
+};
+
+const doAnotherCoolThing = () => {
+  return 'Another cool thing is happening';
+};
+
+const doAnotherOneCoolThing = () => {
+  return 'And another one cool thing is happening';
+};
+
+const doCoolThings = () => {
+  doCoolThing();
+  doAnotherCoolThing();
+  doAnotherOneCoolThing();
+};
+```
