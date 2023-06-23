@@ -189,3 +189,31 @@ img {
 .section-code-example code {
   display: block;
 }
+
+.projects-list {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  justify-content: center;
+  gap: 20px;
+}
+
+.projects-list .list-item {
+  width: 100%;
+  text-align: center;
+}
+
+.projects-list .list-link {
+  display: block;
+  padding-block: 10px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-weight: bold;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.projects-list .list-link:hover {
+  background-color: var(--color-viva-magenta);
+}
