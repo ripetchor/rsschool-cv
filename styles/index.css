@@ -97,3 +97,8 @@ img {
   border-radius: 50%;
   border: 5px solid var(--color-viva-magenta);
 }
+
+.heading-secondary {
+  font-size: 5rem;
+  text-align: center;
+}
