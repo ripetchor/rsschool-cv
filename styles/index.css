@@ -234,3 +234,25 @@ img {
 .education-list .list-item::marker {
   color: var(--color-viva-magenta);
 }
+
+.section-languages {
+  row-gap: 30px;
+}
+
+.languages-list {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  justify-content: center;
+  gap: 30px;
+}
+
+.languages-list .list-item {
+  text-align: center;
+}
+
+.languages-list .list-item img {
+  border: 1px solid var(--color-black);
+  margin-bottom: 10px;
+}
