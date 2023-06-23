@@ -73,3 +73,27 @@ img {
   color: var(--color-white);
   background-color: var(--color-viva-magenta);
 }
+
+.main {
+  display: grid;
+  row-gap: 25px;
+}
+
+.main > section {
+  display: grid;
+  justify-items: center;
+  row-gap: 30px;
+  border: 1px solid var(--color-black);
+  padding: 30px;
+}
+
+.heading-primary {
+  font-size: 7rem;
+  text-align: center;
+  color: var(--color-viva-magenta);
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 5px solid var(--color-viva-magenta);
+}
