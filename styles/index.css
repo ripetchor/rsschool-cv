@@ -217,3 +217,20 @@ img {
 .projects-list .list-link:hover {
   background-color: var(--color-viva-magenta);
 }
+
+.education-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  justify-content: center;
+  justify-items: center;
+  gap: 2px;
+}
+
+.education-list .list-item {
+  font-size: 2rem;
+}
+
+.education-list .list-item::marker {
+  color: var(--color-viva-magenta);
+}
