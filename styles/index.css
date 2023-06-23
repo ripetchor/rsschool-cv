@@ -151,3 +151,41 @@ img {
   filter: invert(38%) sepia(76%) saturate(2504%) hue-rotate(344deg)
     brightness(98%) contrast(92%);
 }
+
+.gray-light {
+  color: #d3d3d3;
+}
+
+.blue {
+  color: #497fad;
+}
+
+.yellow-light {
+  color: #e4e496;
+}
+
+.yellow-dark {
+  color: #f7d334;
+}
+
+.purple {
+  color: #c586c0;
+}
+
+.brown-light {
+  color: #a57663;
+}
+
+.section-code-example i {
+  font-style: normal;
+}
+
+.section-code-example pre {
+  width: 100%;
+  background-color: #252526;
+  color: white;
+}
+
+.section-code-example code {
+  display: block;
+}
