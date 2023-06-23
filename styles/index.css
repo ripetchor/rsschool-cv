@@ -119,3 +119,35 @@ img {
 .contacts-list .list-item img {
   margin-bottom: 10px;
 }
+
+.skills-list {
+  list-style: none;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 180px));
+  justify-content: center;
+}
+
+.skills-list .list-item {
+  text-align: center;
+}
+
+.skills-list .list-item img.html {
+  filter: invert(61%) sepia(87%) saturate(4125%) hue-rotate(337deg)
+    brightness(84%) contrast(113%);
+}
+
+.skills-list .list-item img.css {
+  filter: invert(24%) sepia(100%) saturate(1908%) hue-rotate(221deg)
+    brightness(89%) contrast(104%);
+}
+
+.skills-list .list-item img.js {
+  filter: invert(93%) sepia(43%) saturate(1374%) hue-rotate(321deg)
+    brightness(112%) contrast(88%);
+}
+
+.skills-list .list-item img.git {
+  filter: invert(38%) sepia(76%) saturate(2504%) hue-rotate(344deg)
+    brightness(98%) contrast(92%);
+}
