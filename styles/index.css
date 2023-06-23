@@ -256,3 +256,25 @@ img {
   border: 1px solid var(--color-black);
   margin-bottom: 10px;
 }
+
+.footer {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
+  justify-content: space-between;
+  align-items: center;
+  row-gap: 10px;
+  border: 1px solid var(--color-black);
+  font-weight: bold;
+}
+
+.footer > * {
+  width: 100%;
+  text-align: center;
+}
+
+.footer img {
+  max-width: 200px;
+  max-height: 50px;
+  margin-inline: auto;
+}
