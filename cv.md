@@ -8,7 +8,7 @@ Advanced extended doubtful he he blessing together. Introduced far law gay consi
 
 ### Contacts
 
-- Discord: Zubenko Mikhail (@ripetchor)
+- Discord: Zubenko Mikhail @ripetchor
 - Telegram: @telegram
 - WhatsApp: @whatsapp
 - Facebook: @facebook
