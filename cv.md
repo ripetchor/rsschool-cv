@@ -11,3 +11,12 @@ Fast car cafe effort time dangerous watch just house cafe gravity doctor soft tr
 - [@discord](https://discord.com/discord.com)
 - [@telegram](https://web.telegram.org)
 - [@instagram](https://www.instagram.com)
+
+## Skills
+
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- GitHub
+- Git
