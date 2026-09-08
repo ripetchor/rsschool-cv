@@ -1,0 +1,20 @@
+.contacts {
+  .h2 {
+    text-align: center;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .list-item img {
+    transition: transform 0.3s;
+  }
+
+  @media (hover: hover) {
+    .list-item:hover img {
+      transform: scale(1.2);
+    }
+  }
+}
