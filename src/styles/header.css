@@ -5,24 +5,29 @@
   border-radius: var(--border-radius-sm);
 }
 
-.ul {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  flex-wrap: wrap;
-}
+.header {
+  .list {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 
-.nav-link {
-  display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: var(--color-light);
-  border-radius: var(--border-radius-sm);
-  transition: background-color var(--transition-duration);
-}
+  .list-item {
+    border-radius: var(--border-radius-sm);
+    transition: background-color var(--transition-duration);
+  }
 
-@media (hover: hover) {
-  .nav-link:hover {
-    background-color: var(--color-accent-light);
+  .list-item a {
+    display: block;
+    padding: 10px;
+    color: var(--color-light);
+    text-decoration: none;
+  }
+
+  @media (hover: hover) {
+    .list-item:hover {
+      background-color: var(--color-accent-light);
+    }
   }
 }
