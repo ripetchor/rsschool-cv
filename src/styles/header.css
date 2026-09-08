@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-accent);
+  border-radius: var(--border-radius-sm);
+}
+
+.ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: var(--color-light);
+  border-radius: var(--border-radius-sm);
+  transition: background-color var(--transition-duration);
+}
+
+@media (hover: hover) {
+  .nav-link:hover {
+    background-color: var(--color-accent-light);
+  }
+}

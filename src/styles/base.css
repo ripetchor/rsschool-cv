@@ -1,12 +1,17 @@
 :root {
   --color-dark: #1f1f1f;
   --color-light: #eee;
+  --color-accent: rebeccapurple;
+  --color-accent-light: #972eff;
+  --transition-duration: 0.3s;
+  --border-radius-sm: 5px;
 }
 
 @media (prefers-color-scheme: dark) {
   body {
     background-color: var(--color-dark);
     color: var(--color-light);
+    color: rebeccapurple;
   }
 }
 
