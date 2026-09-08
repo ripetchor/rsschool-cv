@@ -1,0 +1,17 @@
+.hero {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.avatar {
+  width: 400px;
+  height: 300px;
+  margin-inline: auto;
+  border-radius: var(--border-radius-sm);
+}
+
+.h1 {
+  text-align: center;
+}
