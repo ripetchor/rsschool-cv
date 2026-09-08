@@ -1,0 +1,47 @@
+.projects {
+  .list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-item {
+    position: relative;
+  }
+
+  .list-item img {
+    border-radius: var(--border-radius-sm);
+  }
+
+  .container-links {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    inset: 0;
+    background-color: var(--color-accent-transparent);
+    border-radius: var(--border-radius-sm);
+    transition:
+      opacity var(--transition-duration),
+      visibility var(--transition-duration);
+  }
+
+  .link {
+    text-decoration: none;
+    color: var(--color-light);
+    font-size: 1.8rem;
+  }
+
+  @media (hover: hover) {
+    .list-item:hover .container-links {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

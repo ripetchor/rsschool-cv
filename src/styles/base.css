@@ -3,6 +3,7 @@
   --color-light: #eee;
   --color-accent: rebeccapurple;
   --color-accent-light: #972eff;
+  --color-accent-transparent: rgba(102, 51, 153, 0.85);
   --transition-duration: 0.3s;
   --border-radius-sm: 5px;
 }
