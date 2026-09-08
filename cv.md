@@ -20,3 +20,17 @@ Fast car cafe effort time dangerous watch just house cafe gravity doctor soft tr
 - TypeScript
 - GitHub
 - Git
+
+## Code example
+
+```js
+function doCoolStuff(callback, timeout) {
+  setTimeout(() => callback(), timeout);
+}
+
+doCoolStuff(() => console.log("I'm doing cool stuff"), 1000);
+```
+
+## Projects
+
+- [CV](google.com)
