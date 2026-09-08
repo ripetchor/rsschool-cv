@@ -41,3 +41,8 @@ doCoolStuff(() => console.log("I'm doing cool stuff"), 1000);
 - JavaScript/Front-end 2024Q4
 - Angular 2024Q3
 - JS/FE Pre-School 2023Q2
+
+## Languages
+
+- Russian
+- English
