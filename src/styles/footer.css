@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.5rem;
+  padding: 10px;
+  background-color: var(--color-accent);
+  border-radius: var(--border-radius-sm);
+
+  .gh {
+    color: var(--color-light);
+  }
+
+  .rsschool img {
+    width: 150px;
+  }
+}
