@@ -26,6 +26,10 @@ body {
   padding: 10px;
 }
 
+section {
+  scroll-margin-top: 40px;
+}
+
 .content-wrapper {
   max-width: 1000px;
   margin-inline: auto;
