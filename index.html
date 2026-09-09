@@ -1,11 +1,210 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RS-School CV</title>
-    <link rel="stylesheet" href="./src/styles/reset.css" />
-    <link rel="stylesheet" href="./src/styles/base.css" />
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/base.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/hero.css">
+    <link rel="stylesheet" href="./src/styles/contacts.css">
+    <link rel="stylesheet" href="./src/styles/projects.css">
+    <link rel="stylesheet" href="./src/styles/education.css">
+    <link rel="stylesheet" href="./src/styles/languages.css">
+    <link rel="stylesheet" href="./src/styles/skills.css">
+    <link rel="stylesheet" href="./src/styles/footer.css">
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="list">
+          <li class="list-item"><a href="#hero">About me</a></li>
+          <li class="list-item"><a href="#contacts">Contacts</a></li>
+          <li class="list-item"><a href="#education">Education</a></li>
+          <li class="list-item"><a href="#projects">Projects</a></li>
+          <li class="list-item"><a href="#languages">Languages</a></li>
+          <li class="list-item"><a href="#skills">Skills</a></li>
+          <li class="list-item"><a href="#code-example">Code example</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content-wrapper">
+      <section class="container hero" id="hero">
+        <img
+          class="avatar"
+          src="./src/assets/avatar.png"
+          alt="colorful girl"
+          width="400"
+          height="300">
+        <h1 class="h1">Grim Molbertovich</h1>
+        <p>
+          Hello! I'm Grim. Currently learning web development, focusing on HTML, CSS, JS, TS. I've
+          always been interested in technology, and now I'm building projects to improve my coding
+          skills. I'm especially excited about creating interactive and responsive websites. My goal
+          is to become a front-end developer and work on real-world applications.
+        </p>
+      </section>
+
+      <section class="container contacts" id="contacts">
+        <h2 class="h2">Contacts</h2>
+        <ul class="list">
+          <li class="list-item">
+            <a href="https://discord.com" target="_blank">
+              <img src="./src/assets/icons8-discord-new-96.png" alt="discord">
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="https://web.telegram.org" target="_blank"
+              ><img src="./src/assets/icons8-telegram-app-96.png" alt="telegram"
+           ></a>
+          </li>
+          <li class="list-item">
+            <a href="https://www.whatsapp.com/" target="_blank"
+              ><img src="./src/assets/icons8-whatsapp-96.png" alt=""
+           ></a>
+          </li>
+          <li class="list-item">
+            <a href="https://www.instagram.com" target="_blank"
+              ><img src="./src/assets/icons8-instagram-96.png" alt=""
+           ></a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container education" id="education">
+        <h2 class="h2">Education</h2>
+        <ul class="list">
+          <li class="list-item">
+            <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"
+              >JS/FE Pre-School 2023Q2
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="https://rs.school/courses/javascript" target="_blank"
+              >JavaScript/Front-end 2024Q4
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="https://rs.school/courses/angular" target="_blank"> Angular 2024Q3 </a>
+          </li>
+          <li class="list-item">
+            <a href="https://rs.school/courses/reactjs" target="_blank">React 2025 Q3</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container projects" id="projects">
+        <h2 class="h2">Projects</h2>
+        <ul class="list">
+          <li class="list-item">
+            <img src="./src/assets/cv.png" alt="CV">
+            <div class="container-links">
+              <a class="link" href="https://ripetchor.github.io/rsschool-cv" target="_blank"
+                >Deploy</a
+              >
+              <a
+                class="link"
+                href="https://github.com/ripetchor/rsschool-cv/tree/rsschool-cv-html"
+                target="_blank"
+                >Source</a
+              >
+            </div>
+          </li>
+
+          <li class="list-item">
+            <img src="./src/assets/cv.png" alt="CV">
+            <div class="container-links">
+              <a class="link" href="https://ripetchor.github.io/rsschool-cv" target="_blank"
+                >Deploy</a
+              >
+              <a
+                class="link"
+                href="https://github.com/ripetchor/rsschool-cv/tree/rsschool-cv-html"
+                target="_blank"
+                >Source</a
+              >
+            </div>
+          </li>
+
+          <li class="list-item">
+            <img src="./src/assets/cv.png" alt="CV">
+            <div class="container-links">
+              <a class="link" href="https://ripetchor.github.io/rsschool-cv" target="_blank"
+                >Deploy</a
+              >
+              <a
+                class="link"
+                href="https://github.com/ripetchor/rsschool-cv/tree/rsschool-cv-html"
+                target="_blank"
+                >Source</a
+              >
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container languages" id="languages">
+        <h2 class="h2">Languages</h2>
+        <ul class="list">
+          <li class="list-item">
+            <img src="./src/assets/russia-flag-png-large.png" alt="russian federation">
+            <span class="language-level">C1</span>
+          </li>
+          <li class="list-item">
+            <img
+              src="./src/assets/united-states-of-america-flag-png-large.png"
+              alt="united states of america">
+            <span class="language-level">A1</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container skills" id="skills">
+        <h2 class="h2">Skills</h2>
+        <ul class="list">
+          <li class="list-item">
+            <img src="./src/assets/icons8-javascript-96.png" alt="js">
+          </li>
+          <li class="list-item">
+            <img src="./src/assets/icons8-typescript-96.png" alt="ts">
+          </li>
+          <li class="list-item">
+            <img src="./src/assets/icons8-git-96.png" alt="git">
+          </li>
+          <li class="list-item">
+            <img src="./src/assets/github.png" alt="github">
+          </li>
+          <li class="list-item">
+            <img src="./src/assets/html-5.png" alt="html">
+          </li>
+          <li class="list-item">
+            <img src="./src/assets/css-3.png" alt="css">
+          </li>
+        </ul>
+      </section>
+
+      <section class="container code-example" id="code-example">
+        <h2 class="h2">Code example</h2>
+          <pre>
+            <code>
+              function doCoolStuffWithDelay(callback, timeout) {
+                setTimeout(() => callback(), timeout);
+              }
+
+              doCoolStuffWithDelay(() => console.log("I'm doing cool stuff"), 1000);
+              </code>
+          </pre>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="gh" href="https://github.com/ripetchor" target="_blank">ripetchor</a>
+      <div class="year">2026</div>
+      <a class="rsschool" href="https://rs.school/courses/javascript" target="_blank">
+        <img src="./src/assets/logo-rsschool3.png" alt="rs school">
+      </a>
+    </footer>
+  </body>
 </html>
