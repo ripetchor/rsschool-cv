@@ -21,11 +21,11 @@
         <ul class="list">
           <li class="list-item"><a href="#hero">About me</a></li>
           <li class="list-item"><a href="#contacts">Contacts</a></li>
-          <li class="list-item"><a href="#skilles">Skills</a></li>
-          <li class="list-item"><a href="#code-example">Code example</a></li>
-          <li class="list-item"><a href="#projects">Projects</a></li>
           <li class="list-item"><a href="#education">Education</a></li>
+          <li class="list-item"><a href="#projects">Projects</a></li>
           <li class="list-item"><a href="#languages">Languages</a></li>
+          <li class="list-item"><a href="#skills">Skills</a></li>
+          <li class="list-item"><a href="#code-example">Code example</a></li>
         </ul>
       </nav>
     </header>
@@ -73,17 +73,26 @@
         </ul>
       </section>
 
-      <section class="container code-example">
-        <h2 class="h2">Code example</h2>
-        <code>
-          <pre>
-              function doCoolStuffWithDelay(callback, timeout) {
-                setTimeout(() => callback(), timeout);
-              }
-
-              doCoolStuffWithDelay(() => console.log("I'm doing cool stuff"), 1000);
-          </pre>
-        </code>
+      <section class="container education" id="education">
+        <h2 class="h2">Education</h2>
+        <ul class="list">
+          <li class="list-item">
+            <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"
+              >JS/FE Pre-School 2023Q2
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="https://rs.school/courses/javascript" target="_blank"
+              >JavaScript/Front-end 2024Q4
+            </a>
+          </li>
+          <li class="list-item">
+            <a href="https://rs.school/courses/angular" target="_blank"> Angular 2024Q3 </a>
+          </li>
+          <li class="list-item">
+            <a href="https://rs.school/courses/reactjs" target="_blank">React 2025 Q3</a>
+          </li>
+        </ul>
       </section>
 
       <section class="container projects" id="projects">
@@ -111,28 +120,6 @@
               <a class="link" href="" target="_blank">Deploy</a>
               <a class="link" href="" target="_blank">Source</a>
             </div>
-          </li>
-        </ul>
-      </section>
-
-      <section class="container education" id="education">
-        <h2 class="h2">Education</h2>
-        <ul class="list">
-          <li class="list-item">
-            <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"
-              >JS/FE Pre-School 2023Q2
-            </a>
-          </li>
-          <li class="list-item">
-            <a href="https://rs.school/courses/javascript" target="_blank"
-              >JavaScript/Front-end 2024Q4
-            </a>
-          </li>
-          <li class="list-item">
-            <a href="https://rs.school/courses/angular" target="_blank"> Angular 2024Q3 </a>
-          </li>
-          <li class="list-item">
-            <a href="https://rs.school/courses/reactjs" target="_blank">React 2025 Q3</a>
           </li>
         </ul>
       </section>
@@ -175,6 +162,19 @@
             <img src="./src/assets/css-3.png" alt="css" />
           </li>
         </ul>
+      </section>
+
+      <section class="container code-example" id="code-example">
+        <h2 class="h2">Code example</h2>
+        <code>
+          <pre>
+              function doCoolStuffWithDelay(callback, timeout) {
+                setTimeout(() => callback(), timeout);
+              }
+
+              doCoolStuffWithDelay(() => console.log("I'm doing cool stuff"), 1000);
+          </pre>
+        </code>
       </section>
     </main>
 
